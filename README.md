@@ -6,13 +6,14 @@ Generic templates for TradeTrust, where users can use any of these available tem
 
 _Note: These are just some rendering templates that are made available for users to use, the configurations to use these templates are in the [documentation](https://docs.tradetrust.io/document-creator) of TradeTrust document creator._
 
-| Available Templates      | type              | name                   | url                                     | Support OA V3   |
-| ------------------------ | ----------------- | ---------------------- | --------------------------------------- | --------------- |
-| Bill of Lading           | EMBEDDED_RENDERER | BILL_OF_LADING         | https://generic-templates.tradetrust.io | &check;         |
-| Bill of Lading (Generic) | EMBEDDED_RENDERER | BILL_OF_LADING_GENERIC | https://generic-templates.tradetrust.io |                 |
-| Chafta COO               | EMBEDDED_RENDERER | CHAFTA_COO             | https://generic-templates.tradetrust.io | &check;         |
-| Covering Letter          | EMBEDDED_RENDERER | COVERING_LETTER        | https://generic-templates.tradetrust.io |                 |
-| Invoice                  | EMBEDDED_RENDERER | INVOICE                | https://generic-templates.tradetrust.io | &check;         |
+| Available Templates      | type              | name                   | url                                     | Support OA V3 |
+| ------------------------ | ----------------- | ---------------------- | --------------------------------------- | ------------- |
+| Bill of Lading           | EMBEDDED_RENDERER | BILL_OF_LADING         | https://generic-templates.tradetrust.io | &check;       |
+| Bill of Lading (Generic) | EMBEDDED_RENDERER | BILL_OF_LADING_GENERIC | https://generic-templates.tradetrust.io |               |
+| Chafta COO               | EMBEDDED_RENDERER | CHAFTA_COO             | https://generic-templates.tradetrust.io | &check;       |
+| Covering Letter          | EMBEDDED_RENDERER | COVERING_LETTER        | https://generic-templates.tradetrust.io |               |
+| Invoice                  | EMBEDDED_RENDERER | INVOICE                | https://generic-templates.tradetrust.io | &check;       |
+| Simple COO               | EMBEDDED_RENDERER | SIMPLE_COO             | https://generic-templates.tradetrust.io | &check;       |
 
 Use any one of these urls in the `forms[0].defaults.$template.url` field of the configuration file.
 
